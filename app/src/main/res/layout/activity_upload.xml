@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".UploadActivity">
+
+
+    <TextView
+        android:id="@+id/uploadTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Symptoms logging page" />
+
+    <Spinner
+        android:id="@+id/symptom"
+        android:layout_marginTop="100sp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200sp"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.AppCompat.RatingBar"
+        android:numStars="5"
+        android:stepSize="1"
+        />
+
+    <Button
+        android:id="@+id/btnUploadSymptom"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="400sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Upload Symptoms" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

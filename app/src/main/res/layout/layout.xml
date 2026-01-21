@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="217dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="51dp"
+        android:text="Calculate Heart Rate" />
+
+    <TextView
+        android:id="@+id/txtHeartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="53dp"
+        android:layout_toEndOf="@+id/btnRecord"
+        android:layout_toRightOf="@+id/btnRecord"
+        android:text="00"
+        android:textSize="40sp" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/btnRecord"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="31dp">
+
+
+    </androidx.camera.view.PreviewView>
+
+    <Button
+        android:id="@+id/btnResp"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_below="@id/viewFinder"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="23dp"
+        android:text="Calculate Respiratory Rate" />
+
+    <TextView
+        android:id="@+id/txtRespRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewFinder"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/btnResp"
+        android:layout_toRightOf="@+id/btnResp"
+        android:text="00"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="23dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Upload Signs" />
+
+</RelativeLayout>
