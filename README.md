@@ -48,11 +48,11 @@ An Android app that monitors health signs like heart rate and respiratory rate u
 ## Screenshots
 
 **Home Screen:**  
-![Home Screen](images/home_screen.png)  
+<img width="236" height="465" alt="image" src="https://github.com/user-attachments/assets/1d0b9d67-f0cd-433e-9798-33cb58135b9f" />
 
 **Symptom Logging:**  
-![Symptom Logging](images/symptom_logging.png)  
-
+<img width="236" height="464" alt="image" src="https://github.com/user-attachments/assets/94667190-03dd-4f2e-b6e2-7492fea81688" />
+  
 ---
 
 ## Future Improvements
@@ -60,7 +60,6 @@ An Android app that monitors health signs like heart rate and respiratory rate u
 - Integrate external sensors for more accurate measurements  
 - Add cloud syncing for backup and remote access  
 - Visualize trends using charts and graphs  
-- Enable doctor-patient consultation features  
 
 ---
 
