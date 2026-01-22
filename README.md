@@ -2,7 +2,7 @@
 
 An Android app that monitors health signs like heart rate and respiratory rate using smartphone sensors. Users can also log symptoms along with intensity ratings, and all data is stored locally for future reference.
 
-[Live Demo Video](https://youtu.be/2rsI3k5fdDE)
+[Live Demo Video](https://youtu.be/WcIwBU2mMNo)
 
 ---
 
